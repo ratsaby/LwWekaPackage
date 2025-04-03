@@ -1,7 +1,7 @@
 # LwWekaPackage
 
 This [file](LW.zip) is a package for  [WEKA](https://ml.cms.waikato.ac.nz/weka) that implements a machine learning algorithm called
-Large-Width (LW),  by M. Anthony and J. Ratsaby, Large-width machine learning algorithm, *Progress in Artificial Intelligence* (2020).
+Large-Width (LW),  by [Martin Anthony](https://www.lse.ac.uk/Mathematics/people/Martin-Anthony) and [Joel Ratsaby](https://tinyurl.com/ratsaby), Large-width machine learning algorithm, *Progress in Artificial Intelligence* (2020).
 It belongs to the category of 'lazy learning' for data classification as there is no model generated and it makes its decision based on the data alone.
 
 ## Overview of the algorithm
