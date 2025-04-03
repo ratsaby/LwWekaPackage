@@ -10,9 +10,7 @@ It operates to maintain a large sample width (which is a notion similar to sampl
 
 Compared to other large-margin learning algorithms such as the ubiquitous SVM kernel methods, where a kernel function needs to be defined and be an inner product in some higher dimensional space, the LW algorithm can use any distance function, which does not have to satisfy anything other than non-negativity (for instance, it need not  satisfy the triangle inequality). This makes LW easy to apply in classification learning problems on general distance spaces.
 
-## Implementation
-
-On WEKA, the algorithm treats the Training set as the labeled examples and the Test set as the unlabeled examples, but when applied in the real world, it can learn from a single set consisting of a mixture of labeled and unlabeled examples.
+On WEKA, the algorithm treats the Training set as the labeled examples and the Test set as the unlabeled examples, but when applied in the real world, it can learn from a single set consisting of a *mixture* of labeled and unlabeled examples.
 
 ## Limitation 
 In the current WEKA implementation, the distance function is Euclidean hence the data needs to be numeric. It has been tested with the WEKA Explorer and Experimenter and also with remote engines.
