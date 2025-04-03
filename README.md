@@ -14,6 +14,6 @@ Bibtex
 
 ## Installing the package
 
-Download the [file](LW.zip) and then  install it from the package manager of WEKA.
+Click on the link [file](LW.zip) then on the top right click the three dots, and choose download. Then  install it from the package manager of WEKA.
 
 If you are updating this package form an older to a newer version, make sure first to delete the folder /tmp/lw-weka/
