@@ -29,3 +29,7 @@ Bibtex
 Click on the link [file](LW.zip) then on the top right click the three dots, and choose download. Then  install it from the package manager of WEKA.
 
 If you are updating this package form an older to a newer version, make sure first to delete the folder /tmp/lw-weka/
+
+## Future plan
+
+A parallel implementation of LW algorithm for GPU is currently being developed. You can stay informed when it will be released, by visiting this [page](https://storage.googleapis.com/ratsaby/weka-lw/LW.htm)
