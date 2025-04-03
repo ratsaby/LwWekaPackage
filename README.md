@@ -11,6 +11,9 @@ It operates with the aim of maintaining a large sample width (which is a notion 
 ## Limitation 
 In the current WEKA implementation, the distance function is Euclidean hence the data needs to be numeric. It has been tested with the WEKA Explorer and Experimenter and also with remote engines.
 
+## Platforms
+The package runs on Linux, Mac OS, and Windows
+
 ## 📖 Citation
 
 Bibtex
@@ -22,3 +25,7 @@ Bibtex
 Click on the link [file](LW.zip) then on the top right click the three dots, and choose download. Then  install it from the package manager of WEKA.
 
 If you are updating this package form an older to a newer version, make sure first to delete the folder /tmp/lw-weka/
+
+## Acknowledgement
+
+We thank Yuval Zachrya for porting the code into a WEKA package
