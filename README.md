@@ -13,7 +13,8 @@ Compared to other large-margin learning algorithms such as the ubiquitous SVM ke
 On WEKA, the algorithm treats the Training set as the labeled examples and the Test set as the unlabeled examples, but in general, when applied in the real world it can learn from a single set consisting of a *mixture* of labeled and unlabeled examples.
 
 ## Limitation 
-In the current WEKA implementation, the distance function is Euclidean hence the data needs to be numeric. It has been tested with the WEKA Explorer and Experimenter and also on WEKA's parallel remote engines experimenter setting.
+In the current WEKA implementation, the distance function is Euclidean hence the data needs to be numeric or nominal (WEKA converts nominal data to numeric). There is  no support for missing values in the data. 
+The implementation has been tested with WEKA's Explorer and Experimenter and also on WEKA's parallel remote engines experimenter setting.
 
 ## Platforms
 The package runs on Linux, Mac OS, and Windows
