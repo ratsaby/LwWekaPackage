@@ -8,6 +8,6 @@ It operates with the aim of maintaining a large sample width (which is a notion 
 
 ## 📖 Citation
 
-###Bibtex
-
+Bibtex
+<br>
 <pre> ```bibtex @article{AnthonyRatsaby2020, author = {M. Anthony and J. Ratsaby}, doi = {10.1007/s13748-020-00212-4}, journal = {Progress in Artificial Intelligence}, number = {3}, pages = {275--285}, title = {Large-width machine learning algorithm}, url = {https://doi.org/10.1007/s13748-020-00212-4}, volume = {9}, year = {2020} } ```</pre>
