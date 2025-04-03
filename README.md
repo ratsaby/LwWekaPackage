@@ -1,6 +1,6 @@
 # LwWekaPackage
 
-This is a package for  [WEKA](https://ml.cms.waikato.ac.nz/weka) that implements a machine learning algorithm called
+This [file](LW.zip) is a package for  [WEKA](https://ml.cms.waikato.ac.nz/weka) that implements a machine learning algorithm called
 Large-Width (LW),  see M. Anthony and J. Ratsaby, Large-width machine learning algorithm, *Progress in Artificial Intelligence* (2020).
 It belongs to the category of 'lazy learning' for data classification as there is no model generated and it makes its decision based on the data alone.
  
