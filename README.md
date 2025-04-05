@@ -29,7 +29,15 @@ Bibtex
 
 Click on the link [file]([https://github.com/ratsaby/LwWekaPackage/blob/main/LW-ver-1-0.zip](https://github.com/ratsaby/LwWekaPackage/raw/main/LW-ver-1-0.zip)) then on the top right click the three dots, and choose download. Then  install it from the package manager of WEKA.
 
-If you are updating this package form an older to a newer version, make sure first to delete the folder /tmp/lw-weka/
+## Updating
+
+To update to a new version of the package, make sure first to delete the folder /tmp/lw-weka/ as follows:
+
+* On Linux: Open Terminal and type:  `rm -rf /tmp/lw-weka`
+* On Windows: Open CMD and type: `rmdir /s /q C:\Users\<YourUsername>\AppData\Local\Temp\lw-weka`
+* On Macbook: Open Terminal and type: `java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'`
+For instance you may see: java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/
+Then type: `rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka`
 
 ## Future plan
 
