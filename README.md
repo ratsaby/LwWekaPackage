@@ -46,11 +46,12 @@ rmdir /s /q "%LOCALAPPDATA%\Temp\lw-weka"
 java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'
 ```
 <br>For instance you may see:</br>
-```java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/
 ```
-<br>
-Then type:</br>
-```rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka
+java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/
+```
+<br>Then type:</br>
+```
+rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka
 ```
 
 ## Future plan
