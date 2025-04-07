@@ -43,8 +43,7 @@ rmdir /s /q "%LOCALAPPDATA%\Temp\lw-weka"
 ```
 * On MacOS: Open Terminal and type: 
 ```java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'```
-<br>
-For instance you may see:</br>
+<br>For instance you may see:</br>
 ```java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/```
 <br>
 Then type:</br> ```rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka```
