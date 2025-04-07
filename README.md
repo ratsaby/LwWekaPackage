@@ -35,18 +35,23 @@ To update to a new version of the package, make sure first to delete the folder 
 
 * On Linux: Open Terminal and type:  `rm -rf /tmp/lw-weka`
  
-* On Windows: Open CMD and type: 
+* On Windows: Open CMD and type:
 ```
 cd /d %TEMP%
 cd ..
 rmdir /s /q "%LOCALAPPDATA%\Temp\lw-weka"
 ```
 * On MacOS: Open Terminal and type: 
-```java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'```
+```
+java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'
+```
 <br>For instance you may see:</br>
-```java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/```
+```java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/
+```
 <br>
-Then type:</br> ```rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka```
+Then type:</br>
+```rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka
+```
 
 ## Future plan
 
