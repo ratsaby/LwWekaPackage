@@ -34,7 +34,11 @@ Click on the link [file]([https://github.com/ratsaby/LwWekaPackage/blob/main/LW-
 To update to a new version of the package, make sure first to delete the folder /tmp/lw-weka/ as follows:
 
 * On Linux: Open Terminal and type:  `rm -rf /tmp/lw-weka`
-* On Windows: Open CMD and type: `rmdir /s /q C:\Users\<YourUsername>\AppData\Local\Temp\lw-weka`
+* On Windows: Open CMD and type: <pre>```@echo off
+cd /d %TEMP%
+cd ..
+rmdir /s /q "%LOCALAPPDATA%\Temp\lw-weka"
+```</pre>
 * On Macbook: Open Terminal and type: `java -XshowSettings:properties -version 2>&1 | grep 'java.io.tmpdir'`
 For instance you may see: java.io.tmpdir = /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/
 Then type: `rm -rf /var/folders/g8/pmh7btn126d7zh4mkz1pjln80000gn/T/lw-weka`
